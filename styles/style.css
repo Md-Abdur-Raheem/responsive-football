@@ -207,6 +207,7 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 165px;
+    margin-bottom: 150px;
 }
 
 .highlights {
@@ -223,4 +224,32 @@ main {
 .highlights-image img {
     width: 567px;
     height: 427px;
+}
+
+/* ----------------
+ Highlights Styles
+------------------ */
+.partner-container {
+    background-color: #FFFFFF;
+    /* padding-top: 50px;
+    margin-bottom: 50px; */
+    /* height: 104px; */
+}
+
+.partner-container h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(6, 0fr);
+    grid-column-gap: 3em;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+#bottom-hr {
+    margin: 0px;
 }
