@@ -290,12 +290,25 @@ footer {
     /* ----------------
      Top Banner Styles
     ------------------ */
+    .top-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .top-heading h1 {
         margin-bottom: 30px;
     }
 
     .watch-button {
         margin-bottom: 50px;
+    }
+
+    .top-image img {
+        width: 74%;
+        margin-left: 14%;
     }
 
     /* ----------------
@@ -317,7 +330,7 @@ footer {
     .menu {
         display: flex;
         justify-content: space-evenly;
-        width: 100%;
+        width: 60%;
     }
 
     .right-menu {
@@ -334,13 +347,14 @@ footer {
 
     /* ----------------
     Player Styles
------------------- */
+    ------------------ */
     .player-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 25%;
+        padding-right: 25%;
         justify-content: center;
+        align-items: center;
     }
 
     .player {
@@ -348,7 +362,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 600px;
+        width: 100%;
 
     }
 
@@ -357,27 +371,19 @@ footer {
         height: 50%;
     }
 
-    .player-name h2 {
-        width: 100%;
-        text-align: left;
-    }
-
-    .player-description p {
-        width: 100%;
-    }
-
     /* ----------------
     Ranking Styles
 ------------------ */
     .rankings {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
     }
 
-    .ranking {
-        margin-bottom: 100px;
+
+    .ranking table {
+        width: 350px;
     }
 
     /* ----------------
@@ -386,9 +392,10 @@ footer {
     .highlights-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin-top: 30px;
+        margin-left: 3%;
+        width: 100%;
     }
 
     /* ----------------
@@ -396,16 +403,10 @@ footer {
 ------------------ */
     .partners {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 0fr);
         grid-row-gap: 3em;
-        justify-content: center;
+        width: 100%;
         text-align: center;
+        margin-left: 4%;
     }
-
-
-
-
-
-
-
 }
