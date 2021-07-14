@@ -114,6 +114,10 @@ header {
 /* ----------------
     Player Styles
 ------------------ */
+main {
+    background-color: #ece8e8c7;
+}
+
 .player-container {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
@@ -122,7 +126,7 @@ header {
     padding-left: 25%;
     padding-right: 25%;
     padding-top: 70px;
-    background-color: #ece8e8c7;
+
 }
 
 .player {
@@ -146,4 +150,51 @@ header {
 .player-description p {
     width: 300px;
     padding-top: 0px;
+}
+
+/* ----------------
+    Ranking Styles
+------------------ */
+.ranking-container {
+    background-color: #2D25A0;
+    color: #FFFFFF;
+    padding-top: 1%;
+
+}
+
+.ranking-container h1 {
+    text-align: center;
+    color: #E02C6D;
+}
+
+.rankings {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ranking table {
+    text-align: center;
+    width: 500px;
+    height: 400px;
+}
+
+.ranking table caption {
+    color: #FFD662FF;
+}
+
+.ranking table thead tr th {
+    color: #A2A2A1FF;
+}
+
+#flag {
+    width: 30px;
+}
+
+#team-name {
+    text-align: left;
+    padding-left: 100px;
+}
+
+#rk {
+    color: black;
 }
