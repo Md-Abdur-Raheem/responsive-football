@@ -41,7 +41,7 @@ Top Banner Styles
     margin-bottom: 0px;
 }
 
-.top-heading a {
+.watch-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +53,11 @@ Top Banner Styles
     background-color: #E02C6D;
 }
 
-.top-heading a:hover {
+.watch-button:hover {
     transform: scale(1.05);
 }
 
-.top-heading a small {
+.watch-button small {
     padding-left: 10px;
 }
 
@@ -159,6 +159,7 @@ main {
     background-color: #2D25A0;
     color: #FFFFFF;
     padding-top: 1%;
+    margin-top: 70px;
 
 }
 
@@ -197,4 +198,29 @@ main {
 
 #rk {
     color: black;
+}
+
+/* ----------------
+ Highlights Styles
+------------------ */
+.highlights-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 165px;
+}
+
+.highlights {
+    width: 470px;
+    margin-right: 70px;
+}
+
+.highlights h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.highlights-image img {
+    width: 567px;
+    height: 427px;
 }
